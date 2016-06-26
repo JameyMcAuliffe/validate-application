@@ -1,0 +1,13 @@
+/***************************************
+Checks to see if form entries are valid
+***************************************/
+
+input[type=email]:focus:invalid,
+input[type=url]:focus:invalid {
+	background: red;
+}
+
+input[type=email]:focus:valid,
+input[type=url]:focus:valid {
+	background: green;
+}
